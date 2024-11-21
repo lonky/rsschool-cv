@@ -21,11 +21,11 @@ I like to play the guitar and make electronic music.
 
 #### Work Experience
 
-2024 - Now Yandex, QA Engineer  
-2021 - 2024 Wargaming, QA Engineer  
-2018 - 2021 a1qa, QA Engineer  
-2017 - 2018 Point, Engineer Constructor  
-2015 - 2017 Autohydrousilitel, Mechanical Engineer
+2024 - Now, Yandex, QA Engineer  
+2021 - 2024, Wargaming, QA Engineer  
+2018 - 2021, a1qa, QA Engineer  
+2017 - 2018, Point, Engineer Constructor  
+2015 - 2017, Autohydrousilitel, Mechanical Engineer
 
 #### Education
 
