@@ -1,0 +1,29 @@
+* {
+    text-align: center;
+    font-family: monospace;
+    background-color: black;
+    color: white;
+  }
+
+p {
+    background-color: #1d2337;
+}
+
+div {
+    display: inline-block;
+    background-color: #1d2337;
+    padding: 10px 25px;
+    border-radius: 15px;
+}
+
+.prof-interests {
+    text-align: left;
+}
+
+.code-title {
+    font-style: italic;
+}
+
+.code {
+    text-align: left;
+}
