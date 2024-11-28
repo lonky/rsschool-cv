@@ -7,24 +7,23 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
     <h2>Yan Vashchanka</h2>
 
     <h3>Contacts</h3>
 
-    <div>
+        <div class="wrapper">
     <p>email: yan.vashchenko@gmail.com</p>
     </div>
 
     <h3>Summary</h3>
 
-    <div>
+    <div class="wrapper">
     <p>QA Engineer with 6 years experience.</p>
     </div>
 
     <h3>Professional Interests</h3>
 
-    <div>
+    <div class="wrapper"
     <p class="prof-interests">
     Now I'm trying different programming languages to choose the main one.<br>
     I'd passed Python courses and develop my pet project on Django.<br>
@@ -38,13 +37,13 @@
 
     <h3>About me</h3>
 
-    <div>
+    <div class="wrapper">
     <p>I like to play the guitar and make electronic music.</p>
     </div>
 
     <h3>Work Experience</h3>
 
-    <div>
+    <div class="wrapper">
     <p class="code">
     2024 - Now, Yandex, QA Engineer<br>
     2021 - 2024, Wargaming, QA Engineer<br>
@@ -56,7 +55,7 @@
 
     <h3>Education</h3>
 
-    <div>
+    <div class="wrapper">
     <p class="code">
     2010 - 2015 Polotsk State University, Mechanical Engineer<br>
     2013 - 2015 Polotsk State University, Economist
@@ -70,12 +69,12 @@
     <br>
     <h3 class="code-title">The 'Game of Life' algorithm part in Python</h3>
 
-    <div>
+    <div class="wrapper">
     <p class="code">
         def check_neighbors(_canvas):<br>
         &nbsp;&nbsp;&nbsp;&nbsp;width = len(_canvas[0])<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;hight = len(_canvas)<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;tmp_canvas = [[0 for i in range(width)] for j in range(hight)]<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;height = len(_canvas)<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;tmp_canvas = [[0 for i in range(width)] for j in range(height)]<br>
         &nbsp;&nbsp;&nbsp;&nbsp;tmp = 0<br>
         &nbsp;&nbsp;&nbsp;&nbsp;for n, i in enumerate(_canvas):<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for p, j in enumerate(i):<br>
@@ -83,7 +82,7 @@
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;for y in (-1, 0, 1):<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if (x == 0) &amp; (y == 0):<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;continue<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dex_n = (x + n) % hight<br>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dex_n = (x + n) % height<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;dex_p = (y + p) % width<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;if _canvas[dex_n][dex_p] == 1:<br>
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;tmp += 1<br>
